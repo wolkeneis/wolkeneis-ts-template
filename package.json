@@ -2,16 +2,24 @@
   "name": "<<NAME>>",
   "version": "0.1.0",
   "description": "<<NAME>>",
+  "keywords": [],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wolkeneis/<<NAME>>.git"
   },
-  "author": "Frooastside",
+  "author": "Frooastside <frooastside@gmail.com>",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/wolkeneis/<<NAME>>/issues"
   },
   "homepage": "https://<<NAME>>.wolkeneis.dev/",
+  "engines": {
+    "node": "^16.14.0",
+    "vscode": "^1.22.0",
+    "npm": "^8.10.0"
+  },
+  "main": "<<MAIN>>",
+  "bin": {},
   "scripts": {
     "start": "node -r source-map-support/register dist/app.js",
     "restart": "yarn build && yarn start",
