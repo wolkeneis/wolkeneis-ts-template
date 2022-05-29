@@ -24,8 +24,7 @@
   "bin": {},
   "scripts": {
     "start": "node -r source-map-support/register dist/app.js",
-    "restart": "pnpm build && pnpm start",
-    "watch": "nodemon -e ts -L -w src --exec \"pnpm restart\"",
+    "watch": "nodemon -e ts -L -w src --exec \"pnpm build && pnpm start\"",
     "lint": "eslint --ext ts .",
     "lint:fix": "pnpm eslint --fix --ext ts .",
     "pretty": "prettier --write .",
